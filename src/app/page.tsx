@@ -3,9 +3,7 @@ import Navbar from "@/components/Navbar/Navbar";
 import Thirdcomponent from "@/components/Third/Thirdcomponent";
 import React from "react";
 
-type Props = {};
-
-const page = (props: Props) => {
+const page = () => {
   return (
     <div>
       <Navbar />
