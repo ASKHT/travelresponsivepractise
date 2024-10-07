@@ -2,9 +2,8 @@ import React from "react";
 import "@fontsource/abril-fatface"; // Default weight 400
 import styles from "./styles.module.css";
 import Image from "next/image";
-type Props = {};
 
-const Midbar = (props: Props) => {
+const Midbar = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.content}>
@@ -32,8 +31,8 @@ const Midbar = (props: Props) => {
         </div>
         <div className={styles.travelslang}>
           <p>
-            I travel not to go anywhere, but to go. I travel for travel's sake
-            the
+            I travel not to go anywhere, but to go. I travel for travel&apos;s
+            sake the
           </p>
           <p>great affair is to move.</p>
         </div>

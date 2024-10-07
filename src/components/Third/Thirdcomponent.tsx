@@ -1,9 +1,8 @@
 import React from "react";
 import styles from "./styles.module.css";
 import Image from "next/image";
-type Props = {};
 
-const Thirdcomponent = (props: Props) => {
+const Thirdcomponent = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.headings}>
