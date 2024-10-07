@@ -1,0 +1,153 @@
+.wrapper{
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    /* justify-content: center; */
+    margin-bottom: 1rem;
+    align-items: center;
+    gap: 2rem;
+}
+.headings{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.headingone{
+   font-size: 3rem;
+    font-weight: 400;
+    color:#FDC702; 
+}
+.headingtwo{
+     font-size: 3rem;
+    font-weight: 200; 
+}
+.maldives{
+    opacity: 0.8;
+    border-radius: 10px;
+}
+.thailand{
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+
+.imageWrapper {
+    display: flex;
+    gap:6rem;
+  position: relative;
+  width:35rem;
+  height: 35rem;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.imageWrapper:hover {
+  transform: scale(1.0);
+}
+
+.image {
+  transition: transform 0.3s ease;
+}
+
+.imageWrapper:hover .image {
+  transform: scale(1.1);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.865));
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.imageWrapper:hover .overlay {
+  background: linear-gradient(transparent, rgba(0,0,0,0.5));
+}
+
+.location {
+  font-family: 'Your Stylized Font', cursive;
+  color: #ffd700;
+  margin-bottom: 5px;
+}
+
+.destination {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.imageWrapperone {
+    display: flex;
+    gap:6rem;
+    padding: 1rem;
+  position: relative;
+  width:22rem;
+  height: 12rem;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.imageWrapperone:hover {
+  transform: scale(1.0);
+}
+
+.imageone {
+  transition: transform 0.3s ease;
+}
+
+.imageWrapperone:hover .imageone {
+  transform: scale(1.1);
+}
+
+.overlayone {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.865));
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.imageWrapperone:hover .overlayone {
+  background: linear-gradient(transparent, rgba(0,0,0,0.5));
+}
+
+.locationone {
+  font-family: 'Your Stylized Font', cursive;
+  color: #ffd700;
+  margin-bottom: 5px;
+}
+
+.destinationone {
+  font-size: 24px;
+  font-weight: bold;
+}
+.imagewrappercontainer{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 1rem;
+}
+
+@media (max-width:986px) {
+   
+  .imagewrappercontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+  .imageWrapper,
+  .imageWrapperone {
+    width: 95%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+   
+}

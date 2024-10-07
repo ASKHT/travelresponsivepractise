@@ -6,7 +6,29 @@
   --background: #ffffff;
   --foreground: #171717;
 }
+::-webkit-scrollbar {
+    width: 8px; /* Width of the vertical scrollbar */
+    height: 8px; /* Height of the horizontal scrollbar */
+}
 
+::-webkit-scrollbar-track {
+    background: transparent; /* Background of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #DCDCDC; /* Color of the draggable scrollbar handle */
+    border-radius: 10px; /* Roundness of the scrollbar handle */
+     height: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Darker color on hover */
+}
+
+/* Hide the scrollbar buttons (up and down arrows) */
+::-webkit-scrollbar-button {
+    display: none; /* Hides the up and down buttons */
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -17,9 +39,23 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-abril);
+}
+.abril-text {
+  font-family: var(--font-abril-fatface);
 }
 
+.comforter-text {
+  font-family: var(--font-comforter-brush);
+}
+
+.sans-text {
+  font-family: var(--font-geist-sans);
+}
+
+.mono-text {
+  font-family: var(--font-geist-mono);
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;

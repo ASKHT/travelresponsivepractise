@@ -1,0 +1,63 @@
+.heading{
+    font-size: 3rem;
+    font-weight: 400;
+    color:#FDC702;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    padding-left: 4rem;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.trustedtravel{
+    font-size: 3.5rem;
+    font-weight: 500;   
+}
+.travelslang{
+    font-size: 1rem;
+    font-weight:600;
+    color:grey
+}
+.midbarbtn{
+    display: flex;
+    gap: 2rem;
+}
+.midbarbtnfirst{
+    background-color: #029D9D;
+    color:white;
+     width:8rem;
+     height: 3rem;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.midbarbtnsecond{
+    background-color: white;
+    color:#029D9D;
+    width:8rem;
+    border-radius: 5px;
+    border:2px solid #029D9D; 
+    cursor: pointer;
+}
+.imagecontainer{
+    margin-top:6rem;
+    display: flex;
+  
+    
+}
+@media (max-width:876px) {
+    .wrapper{
+        margin-top:1rem;
+        align-items: center;
+        flex-direction: column;
+        gap: 2px; 
+        margin-bottom: 2rem;
+        margin-left:5rem;
+
+    }  
+}
