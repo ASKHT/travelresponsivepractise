@@ -1,5 +1,7 @@
 /* styles/Navbar.module.css */
 .navbar {
+    width: 100vw;
+    overflow-x: hidden;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -77,6 +79,9 @@
 }
 
 @media (max-width: 1048px) {
+    .navbar{
+        overflow-x: hidden;
+    }
   .navMenu {
     width: 100%;
     overflow: hidden;
