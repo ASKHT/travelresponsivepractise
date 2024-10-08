@@ -37,7 +37,7 @@ const Midbar = () => {
           <p>great affair is to move.</p>
         </div>
         <div className={styles.midbarbtn}>
-          <button className={styles.midbarbtnfirst}>conatact Us</button>
+          <button className={styles.midbarbtnfirst}>contact Us</button>
           <button className={styles.midbarbtnsecond}>Learn More</button>
         </div>
       </div>
